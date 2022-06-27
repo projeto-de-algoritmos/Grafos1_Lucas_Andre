@@ -2,6 +2,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Header from 'components/Header';
+import Board from 'components/Board';
+import Footer from 'components/Footer';
 import { QueensContextProvider } from './context';
 import GlobalStyle from './globalStyles';
 
@@ -20,6 +22,8 @@ export default function App() {
             <GlobalStyle />
             <Wrapper>
                 <Header />
+                <Board />
+                <Footer />
             </Wrapper>
         </QueensContextProvider>
     );

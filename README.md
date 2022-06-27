@@ -1,41 +1,56 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# N-Damas
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
+**Conteúdo da Disciplina**: Grafos 1<br>
 
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+O trabalho é uma demonstração de como os DFS funcionam de forma visual.
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 15/0005563  |  André Lucas Ferreira |
+| 17/0039803	  |  Lucas Medeiros |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+
+No nosso jogo o desafio é um clássico de xadrez onde você deverá dispor as damas no tabuleiro de modo que nenhuma fique sob "ataque" de outra. Há um total de 92 soluções possíveis no tabuleiro máximo de 8x8.
 
 ## Screenshots
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript, HTML, CSS <br>
+**Framework**: React <br>
+
+## Instalação 
+
+> Para clonar o projeto digite:
+
+    git clone https://github.com/projeto-de-algoritmos/Grafos1_N_Damas.git
+
+
+### Instalando o frontend
+
+Para o front é necessário ter instalado o [node & npm](https://nodejs.org/en/).
+
+Caso você esteja na raiz do projeto vá até a pasta do front-end digitando num terminal:
+
+    cd jogo-n-damas
+
+E instale as dependências necessárias com o comando:
+
+    npm install
+
+Após a instalação das dependências inicie o projeto:
+
+    npm start
+    
+Agora basta acessar no seu navegador: http://localhost:8080/
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+
+1. Abra o navegador web de sua escolha e digite a url do projeto;<br>
+2. Com o jogo aberto, selecione o tamanho do tabuleiro (grid) que deseja jogar;
+3. Basta posicionar as damas de acordo com as regras do jogo e se divertir com as várias soluções. 
 
 ## Outros 
 Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.

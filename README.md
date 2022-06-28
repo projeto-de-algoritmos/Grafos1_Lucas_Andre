@@ -14,8 +14,14 @@ O trabalho é uma demonstração de como os DFS funcionam de forma visual.
 
 No nosso jogo o desafio é um clássico de xadrez onde você deverá dispor as damas no tabuleiro de modo que nenhuma fique sob "ataque" de outra. Há um total de 92 soluções possíveis no tabuleiro máximo de 8x8.
 
+Link para o vídeo de apresentação: [N-Damas](https://www.youtube.com/watch?v=78BMYTWKhWA)
+
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![](public/../jogo-n-damas/public/img/init.png)
+![](public/../jogo-n-damas/public/img/init-92.png)
+![](public/../jogo-n-damas/public/img/acertou-possibilidade.png)
+![](public/../jogo-n-damas/public/img/acertou-todas.png)
 
 ## Instalação 
 **Linguagem**: JavaScript, HTML, CSS <br>
